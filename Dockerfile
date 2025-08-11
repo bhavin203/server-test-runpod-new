@@ -6,4 +6,4 @@ RUN pip install -r requirements.txt
 COPY rp_handler.py /
 
 # Start the container
-CMD ["python3", "-u", "rp_handler.py"]
+CMD ["python3", "-u", "handler.py"]
